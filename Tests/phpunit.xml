@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit>
+  <php>
+    <var name="user_name"  value="ユーザ名" />
+    <var name="title"      value="タイトル" />
+    <var name="content"    value="内容(改行は\nで記述)" />
+    <var name="created_at" value="Y/m/d H:i:s" />
+  </php>
+</phpunit>

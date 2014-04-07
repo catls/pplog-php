@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+require_once 'Pplog.php';
+$Pplog = new Pplog();
+if (isset($argv[1])) {
+    $Pplog->getUserPoem($argv[1]);
+}
+else{
+    $Pplog->zapping();
+}
+echo $Pplog->getPoem();
+
